@@ -1,12 +1,119 @@
-# React + Vite
+# 📝 Redux Toolkit TODO App (React + Vite + TailwindCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive, and modern **TODO application** built with **React**, **Vite**, **Redux Toolkit**, and **TailwindCSS**.  
+It supports **adding**, **updating**, and **removing** todos with a clean user interface and instant state updates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ➕ **Add Todos** – Create new tasks instantly
+- ✏ **Update Todos** – Edit existing tasks with one click
+- ❌ **Delete Todos** – Remove completed or unnecessary tasks
+- ⌨ **Press Enter to Add** – Quickly add todos using the keyboard
+- 🌈 **Beautiful UI** – Gradient background & modern styling with TailwindCSS
+- ⚡ **Fast Performance** – Powered by Vite’s Hot Module Replacement (HMR)
+- 🗂 **State Management** – Managed globally with Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Folder Structure
+
+project/
+
+
+│ index.html
+
+│ package.json
+
+│ vite.config.js
+
+│ README.md
+
+│
+
+├─ src/
+
+│ ├─ images/ # Screenshots and images
+
+│ │ └─ screenshot.png
+
+│ ├─ Store/
+
+│ │ ├─ Slice/
+
+│ │ │ └─ Slice.js # Redux Toolkit slice for todos
+
+│ │ └─ store.js # Redux store configuration
+
+│ │
+│ ├─ App.jsx # Main app with add, edit, delete logic
+
+│ └─ main.jsx # Entry point with Provider
+
+│
+
+└─ public/ # Public assets
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠 Installation & Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/redux-toolkit-todo.git
+Navigate to the project folder
+
+bash
+Copy
+Edit
+cd redux-toolkit-todo
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+🖥 Run Locally
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Open your browser at:
+
+arduino
+Copy
+Edit
+http://localhost:5173
+📦 Build for Production
+bash
+Copy
+Edit
+npm run build
+Preview production build:
+
+bash
+Copy
+Edit
+npm run preview
+🧠 Technologies Used
+React – UI Library
+
+Vite – Build tool for fast development
+
+Redux Toolkit – Global state management
+
+TailwindCSS – Utility-first styling
+
+ESLint – Code linting
+
+
+![Todo App Screenshot](src/images/image.jpg)
+
+
