@@ -113,7 +113,7 @@ TailwindCSS – Utility-first styling
 
 ESLint – Code linting
 
-
+Screenshot
 ![Todo App Screenshot](src/images/image.jpg)
 
 
