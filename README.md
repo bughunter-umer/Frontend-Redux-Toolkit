@@ -19,7 +19,7 @@ It supports **adding**, **updating**, and **removing** todos with a clean user i
 
 ## 📂 Folder Structure
 
-project/
+Frontend-Redux-Toolkit/
 
 
 │ index.html
@@ -30,13 +30,14 @@ project/
 
 │ README.md
 
-│
+├─ images/ # Screenshots and images
+
+│ │ └─ image.jpg
+
 
 ├─ src/
 
-│ ├─ images/ # Screenshots and images
 
-│ │ └─ screenshot.png
 
 │ ├─ Store/
 
