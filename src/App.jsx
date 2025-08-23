@@ -35,7 +35,7 @@ export default function App() {
       <div className="bg-white rounded-3xl shadow-xl w-full max-w-lg p-8 border border-gray-200 text-center transition-all duration-300 hover:shadow-2xl">
         
         <h2 className="text-4xl font-extrabold mb-8 text-gray-800 tracking-tight">
-          📝 My Todo List
+          📝 My Todos Lists
         </h2>
 
         {/* Input & Button */}
